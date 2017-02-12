@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    tools:context="com.example.deit0.musicanimo.ViewFullImage"
+    android:layout_height="fill_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+>
+
+
+   <!-- <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageViewFull"
+        />-->
+
+<!--    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView"
+
+        android:layout_alignParentStart="true" />-->
+    <TextView
+        android:id="@+id/tvMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="18sp"
+        android:layout_below="@+id/skSong"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="70dp"
+        android:layout_height="37dp"
+        android:text="@string/str_stop"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/btnPause" />
+
+    <SeekBar
+        android:id="@+id/skSong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnPause"
+        android:layout_width="70dp"
+        android:layout_height="37dp"
+        android:text="@string/str_pause"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="80dp"
+        android:layout_height="37dp"
+        android:text="@string/str_play"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/imageView" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+
+        android:src="@drawable/mp3"
+        android:layout_below="@+id/tvMsg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp" />
+
+ <Button
+     android:layout_width="70dp"
+     android:layout_height="37dp"
+
+     android:id="@+id/btnsiguiente"
+     android:text="@string/str_next"
+     android:layout_alignParentBottom="true"
+     android:layout_toEndOf="@+id/btnatras" />
+
+ <Button
+     android:layout_width="70dp"
+     android:layout_height="37dp"
+     android:text="@string/str_atras"
+     android:id="@+id/btnatras"
+     android:layout_alignParentBottom="true"
+     android:layout_toEndOf="@+id/btnStop" />
+
+ <!--android:text=">>"/-->
+</RelativeLayout>

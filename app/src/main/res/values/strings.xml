@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MusicAnimo</string>
+    <string name="str_play">►</string>
+    <string name="str_pause">||</string>
+    <string name="str_stop">▀</string>
+    <string name="str_next">→</string>
+    <string name="str_atras">←</string>
+    <string name="lista">lista de reproduccion</string>
+    <string name="foto">cual es tu animo</string>
+    <string name="foto1">volver a detectar animo</string>
+    <string name="inicio">volver al inicio</string>
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+</resources>
